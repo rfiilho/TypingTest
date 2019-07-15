@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="css/libs/materialize.min.css">
+    <link rel="stylesheet" href="css/libs/google-fonts.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="center">Typing Test</h1>
+
+        <p class="frase">Lorem ipsum urna at posuere nam nunc massa consectetur, nunc scelerisque sollicitudin mattis orci bibendum ac elementum gravida, feugiat convallis ligula eleifend potenti curabitur libero. potenti neque volutpat suspendisse venenatis mi aptent ligula facilisis ad sodales, ut volutpat feugiat primis dolor varius cras ligula molestie habitasse, egestas risus maecenas tellus egestas leo maecenas cubilia curabitur. id tellus cubilia elementum eros duis sem, purus vestibulum faucibus ad donec iaculis, feugiat vulputate ad viverra molestie. mauris pellentesque inceptos cras mi porta nulla amet magna, hac eu imperdiet molestie ipsum ligula nulla, odio curabitur aliquet class per aenean ornare.</p>
+
+        <ul class="center">
+            <li>
+                <i class="small material-icons icone">description</i>
+                <span id="numeroPalavras">0</span> palavras
+            </li>
+            <li>
+                <i class="small material-icons icone">query_builder</i>
+                <span id="tempoDigitacao">3</span> segundos
+            </li>
+        </ul>
+
+        <textarea class="campoDigitacao" cols="30" rows="10"></textarea>
+        <div>
+            <a class="btn-floating btn-large waves-effect waves-light green" id="btnRestart">
+                <i class="material-icons">refresh</i>
+            </a>
+        </div>
+
+        <ul class="center">
+            <li><span id="contCarac">0</span> Caracteres</li>
+            <li><span id="contPal">0</span> Palavras</li>
+        </ul>
+        <section class="placar">
+            <table class="centered bordered">
+                <thead>
+                    <tr>
+                        <th>Usuário</th>
+                        <th>Palavras</th>
+                        <th>Excluir</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Renato</td>
+                        <td>90</td>
+                        <td><a href='#' class='btnRemove'><i class='small material-icons'>delete</i></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
